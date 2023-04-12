@@ -3,9 +3,9 @@ A python script that automates images scraping and downloading using Selenium an
 
 Run the script from the command line with the search query as an argument. If no argument is provided, the script will prompt the user to enter a search query.
 
-bash
-
+'''bash
 python image_scraper.py [search_query]
+'''
 
 The script will open a Chrome browser, navigate to Bing's image search page, enter the search query, extract the links to the images, write them to a JSON file, create a directory to store the downloaded images and download the images to that directory.
 Dependencies
@@ -17,9 +17,9 @@ Dependencies
 
 You can install the required dependencies by running:
 
-bash
-
+'''bash
 pip install -r requirements.txt
+'''
 
 Note
 
