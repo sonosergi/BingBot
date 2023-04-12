@@ -1,10 +1,12 @@
-# BingBot
+<em> # BingBot </em>
 A python script that automates images scraping and downloading using Selenium an Bing Image Search.
 
 Run the script from the command line with the search query as an argument. If no argument is provided, the script will prompt the user to enter a search query.
 
 '''bash
-python image_scraper.py [search_query]
+
+    python image_scraper.py [search_query]
+
 '''
 
 The script will open a Chrome browser, navigate to Bing's image search page, enter the search query, extract the links to the images, write them to a JSON file, create a directory to store the downloaded images and download the images to that directory.
@@ -18,13 +20,17 @@ Dependencies
 You can install the required dependencies by running:
 
 '''bash
-pip install -r requirements.txt
+
+    pip install -r requirements.txt
+
 '''
 
-Note
+## Note
 
-This script is intended for educational purposes only. It is not intended to violate the terms of use of any website or service.
-Bing Image Search API
+This script is intended for educational purposes only. It is not intended to violate the terms of use of any website or service. 
+
+
+# Bing Image Search API
 
 Bing offers a search API that allows developers to search for images, among other types of content. The API provides a more efficient and reliable way to search for images than scraping Bing's image search page.
 
@@ -42,4 +48,4 @@ However, using the API also has some limitations, such as:
     Need to handle authentication and rate limiting.
     Need to parse JSON responses instead of HTML pages.
 
-If you decide to use the Bing Image Search API in your project, you can find more information and documentation on the Bing Search API v7 website.
+If you decide to use the Bing Image Search API in your project, you can find more information and documentation on the Bing Search API v7 [website](https://learn.microsoft.com/es-es/bing/search-apis/bing-web-search/reference/query-parameters).
