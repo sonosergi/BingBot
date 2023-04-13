@@ -1,6 +1,6 @@
 # BingBot 
 
-A python script that automates images scraping and downloading using Selenium an Bing Image Search.
+A python script that automates images scraping and downloading using Selenium and Bing Image Search.
 ***
 
 Run the script from the command line with the search query as an argument. If no argument is provided, the script will prompt the user to enter a search query.
